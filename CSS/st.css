@@ -1,0 +1,42 @@
+html {
+  color: white;
+  background-color: black;
+}
+
+div {
+  border: rgb(0, 0, 0) 2px solid;
+  background-color: burlywood;
+  color: black;
+}
+
+ul {
+  border: none;
+  background-color: rgb(255, 246, 234);
+  padding: 50px;
+  margin: 50px;
+  color: black;
+}
+
+.f1 {
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
+.s2 {
+  list-style-type: decimal;
+  list-style-position: outside;
+}
+
+table {
+  color: white;
+  padding: 25px;
+  margin: 25px;
+}
+
+th {
+  background-color: chocolate;
+}
+td {
+  background-color: burlywood;
+}
+

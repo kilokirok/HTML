@@ -1,0 +1,42 @@
+
+  
+ 
+  li {
+  font-weight: bold;
+  }
+  
+  .sh {
+  background-color: #ffffcc;
+  color: #2eaa05;
+  border: 2px solid #2eaa05;
+  margin: 20px;
+  padding: 20px;
+  }
+
+  img {
+    width: 55vw;
+  }
+  
+  html { 
+    font-family:'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif
+  }
+
+  .sg {
+    background-color: #2eaa05;
+    color: white;
+  }
+
+  .pv {
+    background-color: beige;
+    color: #2eaa05; 
+  }
+
+  #fs {
+    background-color: #2eaa05;
+    color: white;
+  }
+
+  html body h2 span {
+    background-color: beige;
+    color: #2eaa05
+  }

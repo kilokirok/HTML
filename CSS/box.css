@@ -1,0 +1,31 @@
+h1 {
+  border: 2px solid black;
+  background-color: rgb(255, 126, 255);
+  padding: 30vw;
+  margin: 40px;
+}
+h2:hover {
+  background-color: #0f0;
+}
+
+
+
+h2 {
+  border: 2px solid black;
+  background-color: #888;
+  padding: 30vw;
+  margin: 40px;
+}
+
+h3 {
+  border: 2px solid black;
+  background-color: rgb(107, 220, 240);
+  padding: 30vw;
+  margin: 40px;
+}
+
+h1, h2, h3 {
+  font-size:10vw;
+  font-family: Verdana, Tahoma, sans-serif;
+  text-align: center;
+}

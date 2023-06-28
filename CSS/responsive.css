@@ -1,0 +1,34 @@
+.i {
+  background-color: burlywood;
+}
+
+.c {
+  background-color: chocolate;
+}
+
+.s {
+  background-color: rgb(199, 129, 80);
+}
+
+@media (min-width: 600px) {
+
+  .i, .c {
+    width: 40%;
+  }
+
+  .s {
+    width: 80%;
+  }
+}
+
+@media (min-width: 900px) {
+  .i, .c, .s {
+    width: 50%
+  }
+}
+
+@media (min-width: 1000px) {
+  .i, .c, .s {
+    width: 100%
+  }
+}

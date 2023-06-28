@@ -1,0 +1,53 @@
+html {
+  color: rgb(0, 0, 0);
+  background-color: rgba(243, 221, 192, 1);
+}
+
+h1 {
+  border: black solid 2px;
+  background-color: chocolate;
+}
+ 
+#sul {
+  border: black solid 2px;
+  background-color: chocolate;
+}
+
+.sl {
+  margin: 25px;
+}
+
+ul li a {
+  padding: 8px;
+  border: rgb(0, 0, 0) solid 2px;
+  border-radius: 100px 1000px 100px 1000px;
+  background-color: rgba(243, 221, 192, 1);
+}
+
+
+div {
+  border: chocolate solid 2px;
+  background-color:chocolate;
+}
+img {
+  border: black solid 2px;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 100px 1000px 100px 1000px;
+  background-color: rgba(243, 221, 192, 1);
+}
+
+
+
+
+table {
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  margin: 10px;
+}
+ 
+th {
+  background-color: chocolate;
+}
+
+  

@@ -1,0 +1,52 @@
+html {
+  color: white;
+  background-color: black;
+}
+
+div {
+  border: rgb(0, 0, 0) 2px solid;
+  background-color: burlywood;
+  color: black;
+}
+
+
+.b1 ul li, .aa {
+  color: rgb(0, 0, 0);
+  background-color: azure;
+  border: black 0.5px solid;
+  box-shadow:  1px 1px 1px 1px #888 ;
+  border-radius: 100px;
+  padding: 15px;
+  margin: 10px;
+}
+
+
+.f1, .s2 {
+  border: none;
+  background-color: rgb(255, 246, 234);
+  padding: 50px;
+  margin: 50px;
+  color: black;
+}
+
+.f1 {
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
+.s2 {
+  list-style-type: decimal;
+  list-style-position: outside;
+}
+
+table {
+  color: white;
+  padding: 25px;
+  margin: 25px;
+}
+ 
+th {
+  background-color: chocolate;
+}
+
+  

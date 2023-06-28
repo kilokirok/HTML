@@ -1,0 +1,73 @@
+html {
+  background-color: antiquewhite; 
+  white-space: normal;
+}
+
+.co, main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.fn, .ln, .pd, .mc, .pn, .hl, .lu, p {
+  flex: 20%;
+}
+
+.rc {
+  flex: 40%;
+}
+
+body, main {
+  background-color: rgb(255, 208, 147);
+  padding: 20px;
+}
+
+label, p {
+  background-color: rgb(228, 156, 63);
+}
+
+
+
+ label {
+  display: block;
+  height: 2vw;
+  align-items: middle;
+  padding: 5px;
+  font-style: bold;
+}
+
+input {
+  height: 2vw;
+  width: 20vw;
+}
+
+.rt {
+  height: 6vw;
+}
+
+input[type=submit] {
+  background-color:rgb(139, 79, 1) ;
+  color: white;
+  padding: 20px 40px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin: 0px 0px 0px 0px;
+  height: 3vw;
+}
+
+
+@media (max-width: 1201px) {
+
+  .fn, .ln, .pd, .mc, .pn, .rc, .hl, .lu, p {
+    flex: 48%;
+  }
+
+}
+
+@media (max-width: 900px) {
+
+  .fn, .ln, .pd, .mc, .pn, .rc, .hl, .lu, p {
+    flex: 98%;
+  }
+
+}

@@ -1,0 +1,29 @@
+input, label {
+  display: block;
+  width: 97vw ;
+  height: 3vw;
+}
+
+form {
+  font-size: x-large;
+  font-style: bold;
+}
+
+body {
+  background-color: antiquewhite;
+}
+
+.co {
+  background-color: burlywood;
+}
+
+input[type=submit] {
+  background-color:rgb(139, 79, 1) ;
+  color: white;
+  padding: 20px 40px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin: 15px 0px 0px 0px;
+  
+}

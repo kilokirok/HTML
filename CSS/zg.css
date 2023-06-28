@@ -1,0 +1,109 @@
+#css-zen-garden {
+  background-color: rgb(245, 235, 220);
+  
+  
+  height: 100%;
+}
+
+ .page-wrapper {
+  background-image: url(https://c0078.is3.aws.cis.byuh.edu/Mediafiles/zgbi.jpg);
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.intro {
+  flex: 60%;
+}
+
+.sidebar {
+  flex: 35%;
+}
+
+.supporting {
+  flex: 60%;
+}
+
+
+
+.extra1 {
+  background-image: url(https://c0078.is3.aws.cis.byuh.edu/Mediafiles/squirrel.png);
+  position: absolute;
+  top: 23px;
+  right: 0px;
+  background-repeat: no-repeat;
+  height: 80px;
+  width: 80px;
+  object-fit: cover;
+  z-index: 50;
+}
+
+
+
+h3 {
+  margin: 10px;
+}
+
+p {
+  margin: 10px 10px 10px 15px;
+}
+
+h1 {
+  margin: 10px;
+  text-align: center;
+  font-size: xx-large;
+  border: rgb(201,135,129) 3px solid;
+  background-color: rgb(252, 240, 218);
+}
+
+h2 {
+  margin: 10px;
+  font-size: large;
+  border: rgb(201,135,129) 3px solid;
+  background-color: rgb(252, 240, 218);
+  text-align: center;
+}
+
+.summary {
+  margin: 10px;
+  border: rgb(201,135,129) 3px solid;
+  background-color: rgb(252, 240, 218);
+}
+
+.preamble, .explanation, .participation, .benefits, .requirements, .design-selection, .design-archives, .zen-resources {
+  margin: 10px;
+  border: rgb(201,135,129) 3px solid;
+  background-color: rgb(252, 240, 218);
+}
+
+footer {
+  text-align: center;
+  margin: 10px;
+  border: rgb(255, 252, 248) 1px solid;
+  background-color: rgb(255, 252, 248);
+  color: rgb(149, 056, 058);
+  font-size: x-large;
+  flex: 100%;
+}
+
+a:link {text-decoration: none; color: rgb(149, 056, 058);}
+a:visited {text-decoration: none; color: rgb(201,135,129);}
+a:active {text-decoration: none; color: rgb(201,135,129);}
+a:hover {text-decoration: underline; color: rgb(070,093,114);}
+
+
+@media (max-width: 900px) {
+
+
+  .intro {
+    flex: 100%;
+  }
+  
+  .sidebar {
+    flex: 100%;
+  }
+  
+  .supporting {
+    flex: 100%;
+  }
+  
+}

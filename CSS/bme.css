@@ -1,0 +1,39 @@
+html { 
+  background-color: aquamarine;
+  color: white;
+  font-style:italic;
+  font-family: Verdana, Tahoma, sans-serif;
+}
+
+h1 {
+  background-color:rgb(46, 138, 138);
+}
+
+img {
+  width: 35vw;
+  height: auto;
+}
+
+.f {
+  background-color: blueviolet;  
+}
+
+.s {
+  background-color: cornflowerblue;
+}
+
+.t {
+  font:italic;
+  background-color: darkgreen;
+}
+
+.sign {
+  background-color: deeppink;
+}
+
+h1, .f, .s, .t, .sign {
+  border: 2px solid white;
+  margin: 20px;
+  padding: 20px;
+  
+}

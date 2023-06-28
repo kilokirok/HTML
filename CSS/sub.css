@@ -1,0 +1,23 @@
+.pho {
+font-style: italic;
+}
+
+.aud {
+font-style:oblique;
+}
+
+.vid {
+
+background-color: black;
+color: white;
+
+}
+
+#foo {
+font-style: italic;
+font-size: 5vw;
+}
+
+html body footer p span {
+font-size: 10vw;
+}
